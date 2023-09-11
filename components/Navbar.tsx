@@ -7,6 +7,7 @@ import NavbarItem from '@/components/NavbarItem';
 import useCurrentUser from "@/hooks/useCurrentUser";
 
 
+
 const TOP_OFFSET = 66;
 
 const Navbar = () => {

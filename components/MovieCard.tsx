@@ -74,7 +74,7 @@ const MovieCard: React.FC<MovieCardProps> = ({ data }) => {
           ">
           
           {/* Movie name */}
-          <h3 className="text-white text-xl mt-4">{data.name || data.title}</h3>
+          <h3 className="text-white text-xl mt-4">{data.title}</h3>
 
           {/* Movie description */}
           <p className="text-white mt-1">{data.description}</p>

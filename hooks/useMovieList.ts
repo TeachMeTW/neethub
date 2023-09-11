@@ -1,8 +1,8 @@
 import useSwr from 'swr'
 import fetcher from '@/libs/fetcher';
 
-const useMovie = (id?: string) => {
-  const { data, error, isLoading } = useSwr(id ? `/api/movies/${id}` : null, fetcher, {
+const useMovies = () => {
+  const { data, error, isLoading } = useSwr('/api/movies', fetcher, {
     revalidateIfStale: false,
     revalidateOnFocus: false,
     revalidateOnReconnect: false,
@@ -14,4 +14,4 @@ const useMovie = (id?: string) => {
   }
 };
 
-export default useMovie;
+export default useMovies;

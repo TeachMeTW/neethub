@@ -67,4 +67,5 @@ model Movie {
   thumbnailUrl String
   genre String
   duration String
+  classifier String @default("movie")
 }

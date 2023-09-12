@@ -1,38 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Neethub: League of Legends / Game Video Repository (WIP)
 
-First, run the development server:
+Neethub is a platform that aggregates and curates the best videos for League of Legends and other gaming content. Whether you're a beginner looking to learn or an expert looking for the top plays, Neethub has you covered.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Video Repository**: Access a wide range of videos, from tutorials to top plays.
+- **User Authentication**: Sign up, log in, and customize your experience.
+- **Profile Customization**: Set your avatar from a set of predefined images.
+- **Search Functionality**: Quickly find the content you're looking for with our search feature.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Setup & Installation
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. Clone the repository.
+2. Install the required packages using `npm install` or `yarn install`.
+3. Set up your environment variables as per the `.env.example` file.
+4. Run the development server using `npm run dev` or `yarn dev`.
+5. Open your browser and navigate to `http://localhost:3000`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+We welcome contributions! If you find a bug or have a feature request, please open an issue. If you'd like to contribute code, please open a pull request.
 
-## Learn More
+## Plans
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Video Upload**
+- **Profile View/Customization**
+- **WhoIntedMe Integration**
+- **Navbar functionality**
+- **TBD**
